@@ -37,7 +37,7 @@ export class ButcherShop extends React.Component {
       <div class="butcher-shop">
   <p>Hello! We have the following products for sale today:</p>
   <ul>
-    {BUTCHER_PRODUCTS.map(product => return(<li>product</li>))}
+    {BUTCHER_PRODUCTS.map(product => <li>{product}</li>)}
   </ul>
 </div>
     )
